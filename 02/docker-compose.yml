@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  db:
+    image: mysql
+    container_name: mysql-docker
+    env_file: db.env
